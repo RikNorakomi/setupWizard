@@ -37,8 +37,8 @@ const sortObjEntriesAlphabetically = (entries: [string, boolean][]) => {
 
 const MenuSearch = ({ handleModuleChange, selectedModules, setIsNextStepAllowed }: Props) => {
   const classes = useStyles();
-  setIsNextStepAllowed(false);
-  
+  setIsNextStepAllowed(true);
+
   const FormLabelComponents = sortObjEntriesAlphabetically(Object.entries(selectedModules))
     .map(([key, value]) => (
       <FormControlLabel

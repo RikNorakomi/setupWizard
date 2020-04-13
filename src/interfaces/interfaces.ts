@@ -35,5 +35,9 @@ export interface UserInput {
     twitter: boolean;
     video: boolean;
     websites: boolean;
-  }
+  };
+  facebookPage: string;
+  instagramPage: string;
+  booksQuery: string;
+  videoQuery: string;
 };
